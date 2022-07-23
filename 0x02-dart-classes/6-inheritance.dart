@@ -44,5 +44,5 @@ class User extends Password{
 
   // Override default toString() method
   @override
-  String toString() => "User(id : $id ,name: $name,  age: $age, height: $height, Password: ${isValid(user_password)}";
+  String toString() => "User(id : $id ,name: $name,  age: $age, height: $height, user_password: ${isValid(user_password)}";
 }
